@@ -8618,5 +8618,28 @@ cG59qcijYc9/FdXUWSFS2sC6YLsXKCZpiny2DuVcfrz7UIoycCurqEDOU7myakIZvNdXVpHoD//Z"
 
 
 </script>
+  <div id="gallery" style="display:none; position:fixed; inset:0; background:#080808; z-index:9999; padding:40px;">
+
+  <span onclick="closeGallery()" style="color:white; font-size:30px; position:absolute; right:30px; top:20px; cursor:pointer;">✕</span>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:15px;">
+    
+    <img src="blueberry-whisky.png" style="width:100%;">
+    <img src="blueberry-whisky.png" style="width:100%;">
+    <img src="blueberry-whisky.png" style="width:100%;">
+    
+  </div>
+
+</div>
+
+<script>
+function openGallery() {
+  document.getElementById("gallery").style.display = "block";
+}
+
+function closeGallery() {
+  document.getElementById("gallery").style.display = "none";
+}
+</script>
 </body>
 </html>
